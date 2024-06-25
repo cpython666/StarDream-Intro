@@ -4,15 +4,8 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import IntroductionPage from './components/IntroductionPage.vue';
-
-export default {
-  name: 'App',
-  components: {
-    IntroductionPage,
-  },
-};
 </script>
 
 <style>
