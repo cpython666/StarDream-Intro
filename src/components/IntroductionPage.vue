@@ -1,8 +1,9 @@
 <template>
 	<div id="fullpage">
-		<SloganPage />
 
 		<IndexPage />
+		<SloganPage />
+
 		<WelcomePage />
 		<ServicesPage />
 		<ContactPage />
