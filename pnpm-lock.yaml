@@ -6,7 +6,7 @@ settings:
 
 dependencies:
   animejs:
-    specifier: ^3.2.2
+    specifier: ^3.1.0
     version: 3.2.2
   core-js:
     specifier: ^3.8.3
@@ -15,7 +15,7 @@ dependencies:
     specifier: ^4.0.25
     version: 4.0.25
   letterizejs:
-    specifier: ^2.0.1
+    specifier: ^2.0.0
     version: 2.0.1
   serve:
     specifier: ^14.2.3
