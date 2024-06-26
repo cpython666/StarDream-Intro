@@ -8,9 +8,12 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "animejs": "^3.1.0",
     "core-js": "^3.8.3",
     "fullpage.js": "^4.0.25",
+    "letterizejs": "^2.0.0",
     "serve": "^14.2.3",
+    "typed.js": "^2.1.0",
     "vue": "^3.2.13"
   },
   "devDependencies": {

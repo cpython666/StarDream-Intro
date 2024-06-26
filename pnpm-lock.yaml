@@ -5,15 +5,24 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  animejs:
+    specifier: ^3.2.2
+    version: 3.2.2
   core-js:
     specifier: ^3.8.3
     version: 3.37.1
   fullpage.js:
     specifier: ^4.0.25
     version: 4.0.25
+  letterizejs:
+    specifier: ^2.0.1
+    version: 2.0.1
   serve:
     specifier: ^14.2.3
     version: 14.2.3
+  typed.js:
+    specifier: ^2.1.0
+    version: 2.1.0
   vue:
     specifier: ^3.2.13
     version: 3.4.30
@@ -2491,6 +2500,10 @@ packages:
       uri-js: 4.4.1
     dev: true
 
+  /animejs@3.2.2:
+    resolution: {integrity: sha512-Ao95qWLpDPXXM+WrmwcKbl6uNlC5tjnowlaRYtuVDHHoygjtIPfDUoK9NthrlZsQSKjZXlmji2TrBUAVbiH0LQ==}
+    dev: false
+
   /ansi-align@3.0.1:
     resolution: {integrity: sha512-IOfwwBF5iczOjp/WeY4YxyjqAFMQoZufdQWDd19SEExbVLNXqvpzSJ/M7Za4/sCPmQ0+GRquoA7bGcINcxew6w==}
     dependencies:
@@ -4857,6 +4870,10 @@ packages:
       shell-quote: 1.8.1
     dev: true
 
+  /letterizejs@2.0.1:
+    resolution: {integrity: sha512-ofKV11GGUdEZELXSwR97AteC3Uv9cmLt7IB+L5BLyMp8khDBCwGs+B+c6FHoL/n7vAPC2aeva5WU3gdOuFIhmA==}
+    dev: false
+
   /levn@0.4.1:
     resolution: {integrity: sha512-+bT2uH4E5LGE7h/n3evcS/sQlJXCpIp6ym8OWJ5eV6+67Dsql/LaaT7qJBAt2rzfoa/5QBGBhxDix1dMt2kQKQ==}
     engines: {node: '>= 0.8.0'}
@@ -6797,6 +6814,10 @@ packages:
       media-typer: 0.3.0
       mime-types: 2.1.35
     dev: true
+
+  /typed.js@2.1.0:
+    resolution: {integrity: sha512-bDuXEf7YcaKN4g08NMTUM6G90XU25CK3bh6U0THC/Mod/QPKlEt9g/EjvbYB8x2Qwr2p6J6I3NrsoYaVnY6wsQ==}
+    dev: false
 
   /undici-types@5.26.5:
     resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}

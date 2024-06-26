@@ -1,5 +1,8 @@
 <template>
 	<div id="fullpage">
+		<SloganPage />
+
+		<IndexPage />
 		<WelcomePage />
 		<ServicesPage />
 		<ContactPage />
@@ -11,14 +14,20 @@ import { onMounted } from 'vue';
 import fullpage from 'fullpage.js';
 import 'fullpage.js/dist/fullpage.css';
 
+import IndexPage from './IndexPage.vue';
+import SloganPage from './SloganPage.vue';
+
 import WelcomePage from './WelcomePage.vue';
 import ServicesPage from './ServicesPage.vue';
 import ContactPage from './ContactPage.vue';
 
 onMounted(() => {
 	new fullpage('#fullpage', {
-		autoScrolling: true,
 		navigation: true,
+		autoScrolling: true,
+		fitToSection: true,
+		scrollBar: false,
+	
 	});
 });
 </script>
