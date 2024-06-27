@@ -35,4 +35,5 @@ onMounted(() => {
 
 <style scoped>
 /* 可以根据需要添加全局样式 */
+
 </style>
