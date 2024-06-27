@@ -124,6 +124,8 @@ svg {
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	font-size: 36px;
+
 }
 
 #box {
@@ -136,7 +138,6 @@ svg {
 	box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 	border-top: 1px solid rgba(255, 255, 255, 0.8);
 	border-left: 1px solid rgba(255, 255, 255, 0.8);
-	font-size: 36px;
 
 	height: 55px;
 	display: flex;
